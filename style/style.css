@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family:'train One';
+    font-size: 40px;
+    color: #151c2c;
+}
+
+h2 {
+    font-family:'train One';
+    font-size: 25px;
+    color: #151c2c;
+}
+
+h3 {
+    font-family: 'Teko';
+    font-weight: 500;
+    font-size: 20px;
+    color: #151c2c;
+}
+
+p {
+    font-family: 'Teko';
+    font-weight: 300;
+    font-size: 20px;
+    color: #24345b;
+}
+
+.title {
+    font-size: 25px;
+    color: #151c2c;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("../assets/762343.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    background-color: rgba(96, 148, 246, 0.16);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -20px;
+}
+
+input {
+    text-align: center;
+    font-family: 'Teko';
+    font-weight: 500;
+    font-size: 25px;
+    color: #151c2c;
+    background-color: #a4b3c5;
+    border-radius: 15px;
+    width: 300px;
+    border: none;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    border: none;
+}
+
+button {
+    font-family: 'Teko';
+    font-weight: 500;
+    font-size: 25px;
+    color: #a4b3c5;
+    background-color: #151c2c;
+    border-radius: 15px;
+    width: 300px;
+    border: none;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vehicle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
